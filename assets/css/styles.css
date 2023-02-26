@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.logo{
+  height: 5.5em;
+}
+.logo-large{
+  height: 12.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.6;
+  font-weight:600;
+}
+h1, h2{
+	font-family: 'Rubik', sans-serif;
+	font-family: 'Coda Caption', sans-serif;
+}
+.italicized {
+  font-style: italic;
+  font-weight: 600;
+}
+.centered {
+  padding: auto;
+  margin: auto;
+}
+.gap {
+  margin-left: 25px;
+}
+.flat {
+  font-weight: normal;
+}
+.space-top {
+  padding-top: 25px;
+}
+.bolded {
+  font-weight: bold;
+}
+.progress-percentage {
+  color: rgb(236, 227, 227);
+}
+.navbar-dark .navbar-brand {
+  color: #303030 !important;
+  font-family: 'Coda Caption', sans-serif;
+}
+.navbar-dark .navbar-brand span{
+  color: #f1ad50 !important; 
+}
+.bg-primary{
+	color: Na !important;
+	background-color: #3b3b3b !important;
+}
+.btn-primary{
+	color: #242121 !important;
+	border-color: #f1ad50 !important;
+	background: #f1ad50;
+}
+.donate-btn {
+  height: auto;
+  width: auto;
+}
+.shop-img {
+  position: relative;
+}
+.cta {
+  margin-bottom: 20px;
+}
+.cause-container{
+  height: 20px;
+  background-color: #ccc;
+  position: relative;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.progress-p {
+  text-align: left;
+}
+.progress{
+  height: 20px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.synergy-link {
+  color: rgb(0, 183, 255);
+}
+.align-left {
+  text-align: left;
+}
+.navy {
+	color: navy !important
+}
+.bg-dark2{
+	 background-color: ivory !important;
+}
+.partner-img {
+  height: 8rem;
+  width: 8rem;
+}
+header{
+  /* padding: 70px 0 100px; */
+} 
+.navbar .navbar-nav .nav-item .nav-link {
+  color: rgb(250, 7, 7);
+  font-size: 0.937rem;
+  font-weight: bolder;
+  padding: 0.625rem 1.25rem;
+  border-radius: 50px;
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 1px;
+}
+::-moz-selection {
+  color: #fff;
+  background-color: #490bf9;
+}
+.dark-text {
+  color: black;
+}
+::selection {
+  color: #fff;
+  background-color: #490bf9;
+}
+.bg-primary ::-moz-selection {
+  color: #490bf9;
+  background-color: #fff;
+}
+
+.bg-primary ::selection {
+  color: #490bf9;
+  background-color: #fff;
+}
+  
+.bg-overlay, .hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.text-primary{
+	color: #f1ad50 !important;
+}
+.hero-img {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+.price-card .card-body ul li{
+	line-height:38px;
+}
+.contact-info i{
+	font-size:24px;
+}
+.team-dp ul{
+	display:bock;
+	margin:0 auto;
+	padding:0;
+}
+.team-dp{
+	text-align:center;
+	display:bock;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  left: 10px;
+  z-index: 10;
+  padding: 20px 50px;
+  color: #000;
+  text-align: left;
+  top: 30%;
+  width: 100%;
+}
+.carousel-indicators li {
+  height: 7px;
+  border-radius: 40px;
+  overflow: hidden;
+  width: 92px;
+  background: rgb(247, 210, 3);
+  padding: 0;
+  margin-top: px;
+  border: 0 solid #333;
+}
+.carousel-caption h2{
+  font-size:40px;
+  color: rgb(150, 255, 136);
+}
+.carousel-caption p {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.carousel-item .container{ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.btn-outline-primary {
+  color: #f1ad50;
+  border-color: #f1ad50;
+}
+.btn-outline-primary:hover {
+  color: #333;
+  background-color: #f1ad50;
+  border-color: #f1ad50;
+}
+.card-body { 
+  background: #ffffff !important;
+}
+.card-body h5{
+  font-size:15px;
+	color: #f1ad50;
+}
+.card{
+	border: 3px solid rgba(0, 0, 0, 0.6);
+}
+.card-body p{
+	font-size:13px;
+}
+.price-card {
+  color: #fff;
+}
+.bg-dark {
+  background-color: #3b3b3b !important;
+}
+.navbar-dark .navbar-toggler {
+  color: rgb(227, 252, 3);
+  border-color: rgb(227, 252, 3);
+}
+.wt-blockquote-v2::before { 
+  color: navy; 
+}
+.navbar-collapse { 
+  padding: 25px 0;
+}
+@media only screen and (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 19px;
+  }
+  .carousel-caption p {
+    font-size: 14px;
+  } 
+  .logo {
+    height: 4rem;
+  }
+  .donate-btn {
+    border-width: thin;
+    font-size: 12px;
+    padding: 0.02rem 0.5rem;
+  }
+  .carousel-indicators li {
+    width: 12px;
+  } 
+}
