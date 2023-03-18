@@ -84,8 +84,9 @@ h1, h2{
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
 }
-.synergy-link {
+.kamiliempire-link {
   color: rgb(0, 183, 255);
+  font-style: normal;
 }
 .align-left {
   text-align: left;
